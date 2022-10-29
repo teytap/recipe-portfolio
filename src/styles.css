@@ -57,9 +57,9 @@ footer .footermark {
   font-size: 20px;
 }
 i {
-  font-size: 32px;
+  font-size: 28px;
   color: var(--secondary-color);
-  margin: 10px;
+  margin: 0px 10px;
 }
 i:hover {
   transition: all 200ms ease-in-out;
@@ -93,7 +93,7 @@ li {
 }
 .recepie-container {
   padding: 160px 160px;
-  width: 900px;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -187,14 +187,32 @@ li {
 }
 @media (max-width: 768px) {
   h1 {
-    font-size: 48px;
+    font-size: 52px;
   }
   h2 {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1;
   }
+  .navbar {
+    padding: 20px 0px;
+  }
   .hero {
-    padding: 80px 20px;
+    background-image: url("");
+    padding: 120px 0px;
+    text-align: center;
+    height: 400px;
+    color: black;
+  }
+  .container {
+    padding: 40px 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  .recepie-container {
+    padding: 100px 30px;
+    width: 900px;
+    display: block;
+    margin: 0 auto;
   }
   .project-description {
     text-align: center;
@@ -207,5 +225,9 @@ li {
   }
   .contact-box {
     margin: 20px;
+  }
+  .footer {
+    padding: 10px 0px;
+    text-align: center;
   }
 }
