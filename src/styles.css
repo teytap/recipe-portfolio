@@ -54,6 +54,7 @@ footer .footerallrights {
 footer .footermark {
   margin-top: 5px;
   font-size: 20px;
+  font-weight: bold;
 }
 i {
   font-size: 28px;
@@ -69,6 +70,9 @@ li {
 }
 .navbar {
   padding: 20px 120px;
+}
+.navbar-brand {
+  font-weight: bold;
 }
 .container {
   padding: 60px 60px;
